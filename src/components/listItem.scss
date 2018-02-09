@@ -1,0 +1,37 @@
+
+
+.item {
+    width: 270px;
+    border: 2px solid black ;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eef5d8;
+    position: relative;
+
+}
+
+img {
+    float: left;
+    width : 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+p {
+    font-size: 25px;
+    bottom: 50%;
+    text-align: center;
+    display:inline;
+    word-wrap: break-word;
+}
+
+.btn-danger {
+    border-radius: 50%;
+
+
+}
+
+.check {
+    display: inline;
+}

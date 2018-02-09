@@ -1,0 +1,17 @@
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <!-- <require from="./common.css"></require> -->
+
+  <nav>
+    <ul class="header_ul">
+      <li class="header_li" repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+        <a class="header_a" href.bind="row.href">${row.title}</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <router-view></router-view>
+
+
+</template>

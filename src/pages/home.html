@@ -1,0 +1,25 @@
+<template>
+    <require from="./home.css"></require>
+    <require from="../common.css"></require>
+
+    <div class="container">
+      <div class="row">
+
+          <div class="col">
+          </div>
+
+          <div  class="col-8">
+            <h1>${message}</h1>
+
+            <compose
+              view-model="../components/list"
+              model.bind="list">
+            </compose>
+          </div>
+
+          <div class="col">
+        </div>
+
+      </div>
+    </div>
+</template>

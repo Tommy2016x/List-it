@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.login {
+    width: 270px;
+    border: 0px ;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: Left;
+    background-color: lightblue;
+
+}
+
+.btn:hover {
+    background-color: rgba(0,0,0,.2);
+}
+
+.newuser {
+    text-align: center;
+}
+
+.btn-info:hover {
+    background-color: rgba(3, 41, 152, 0.6);
+}
